@@ -217,6 +217,12 @@ p {
 
 
 /* pagina Daniel*/
+.bodymmuseos{
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  background-color: #F6DDCC;
+}
+
 .nav-museos{
   background-color: #922B21  ;
 }
@@ -232,23 +238,12 @@ p {
   height: 500px;
   position: relative; 
 }
-@media (min-width: 768px) {
-.ctn-img {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
- }
-}
-.ctn-img p {
-  line-height: 2;
-  text-align: center;
-  font-family: var(--fuenteparrafos);
-}
+
 .btn-img {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--primario);
+  background-color: #922B21;
   padding: 1rem;
   border-radius: 1rem;
   margin-left: 25%;
@@ -267,4 +262,12 @@ p {
   color: var(--blanco);
   text-transform: uppercase;
   
+}
+.summary {
+  color: rgb(57, 45, 233);
+}
+.lista {
+  text-align: left;
+  margin: 0 auto;
+  width: 50%;
 }
